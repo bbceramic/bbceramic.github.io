@@ -8,7 +8,7 @@
 # 'jekyll serve'. Si vous modifiez ce fichier, redémarrez SVP le processus du serveur.
 
 # Réglages du Site
-# Ces réglage sont utilisés pour personnaliser votre nouveau site. 
+# Ces réglages sont utilisés pour personnaliser votre nouveau site. 
 # Si vous regardez les fichiers HTML, vous verrez que ceux ci sont accédés 
 # via {{ site.title }}, {{ site.email }}, et ainsi de suite.
 # Vous pouvez créer toute variable personnalisée, et elle sera accessible
