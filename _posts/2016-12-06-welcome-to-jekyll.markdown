@@ -1,6 +1,6 @@
 ---
 title: Bienvenue sur Jekyll
-date: '2016-12-06 18:24:00'
+date: 2016-12-06 18:24:00 Z
 categories:
 - jekyll
 layout: post
