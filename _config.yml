@@ -1,38 +1,26 @@
-# Bienvenue sur Jekyll
-# Ce fichier de configuration est destiné aux réglages qui concernent votre blog en entier, aux valeurs
-# que vous devez régler une fois et ne modifiez que rarement par la suite. Si vous devez changer ces valeurs très souvent, 
-# envisagez d'utiliser la fonctionnalité des fichiers data de Jekyll 
-# pour les données que vous devez mettre à jour fréquemment.
-#
-# Pour des raisons techniques, ce fichier n'est *PAS* rechargé automatiquement quand vous utilisez 
-# 'jekyll serve'. Si vous modifiez ce fichier, redémarrez SVP le processus du serveur.
-
-# Réglages du Site
-# Ces réglages sont utilisés pour personnaliser votre nouveau site. 
-# Si vous regardez les fichiers HTML, vous verrez que ceux ci sont accédés 
-# via {{ site.title }}, {{ site.email }}, et ainsi de suite.
-# Vous pouvez créer toute variable personnalisée, et elle sera accessible
-# dans les gabarits via {{ site.myvariable }}.
+---
 title: Barbara Billoud
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: bbceramic@gmail.com
-description: > # ceci veut dire que  to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: barbarabilloud
+description: 'Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
 
-# Build settings
+'
+baseurl: ''
+url: ''
+twitter_username: barbarabilloud
 markdown: kramdown
 theme: minima
 gems:
-  - jekyll-feed
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
-
-
-
-
-
+- Gemfile
+- Gemfile.lock
