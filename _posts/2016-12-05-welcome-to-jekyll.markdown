@@ -1,13 +1,15 @@
 ---
-title: Welcome to Jekyll!
-date: 2016-12-05 17:24:59 Z
+title: Bienvenue sur Jekyll
+date: '2016-12-06 18:24:00'
 categories:
 - jekyll
-- update
 layout: post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Vous trouverez ce post dans le répertoire `_posts`. Allez directement dedans, modifiez le et reconstruisez le site pour visualiser vos modifications. Vous pouvez reconstruire le site de différentes façons, mais le moyen le plus facile est 
+
+- de vous connecter à votre compte sur forestry.io 
+- et/ou ouvrir  `jekyll serve`, qui lance un serveur web et auto-régénère votre site à chaque fois qu'un fichier est mis à jour.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
